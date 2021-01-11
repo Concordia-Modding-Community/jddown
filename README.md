@@ -1,2 +1,2 @@
 # jddown
-Java Discord Markdown Parser
+Java Discord Markdown AST Parser
