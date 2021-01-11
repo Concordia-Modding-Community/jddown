@@ -147,6 +147,7 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 
 ### Gradle Patch ###
+bin
 **/build/
 
 # End of https://www.toptal.com/developers/gitignore/api/java,gradle,intellij
