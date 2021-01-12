@@ -1,26 +1,13 @@
-repositories {
-    mavenCentral()
-    jcenter()
-}
+apply plugin : 'java-library'
 
 group = 'ca.concordia.jddown'
 
 version = '1.0'
 
-apply plugin : 'java'
+repositories {
+    jcenter()
+}
 
 dependencies {
     testImplementation 'junit:junit:4.13'
-}
-
-test {
-    useJUnit()
-}
-
-sourceSets {
-    main {
-        java {
-            srcDir 'src/main/java'
-        }
-    }
 }
