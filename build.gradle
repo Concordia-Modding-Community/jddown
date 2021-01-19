@@ -4,6 +4,8 @@ group = 'ca.concordia.jddown'
 
 version = '1.0'
 
+sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
+
 repositories {
     jcenter()
 }
